@@ -1,0 +1,16 @@
+{
+  "links": [
+    {
+      "label": "Github 프로필 링크",
+      "link": "https://github.com/tkddn204",
+      "imgSrc": "/images/github.svg",
+      "imgAlt": "github-svg"
+    },
+    {
+      "label": "티스토리 블로그 링크",
+      "link": "https://rightpair.tistory.com/",
+      "imgSrc": "/images/tistory.svg",
+      "imgAlt": "tistory-svg"
+    }
+  ]
+}
