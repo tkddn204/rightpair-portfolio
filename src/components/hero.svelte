@@ -13,7 +13,7 @@
         <span class="mb-5">👋 안녕하세요!</span>
       </h1>
       <p class="text-2xl mb-10">
-        <span class="text-4xl font-bold underline decoration-sky-500">웹 백엔드</span> 개발자,
+        주니어 <span class="text-4xl font-bold underline decoration-sky-500">웹 백엔드</span> 개발자,
         <span class="text-5xl font-bold bg-yellow-200">한상우</span>입니다.
       </p>
       <hr />
@@ -24,16 +24,4 @@
       </p>
     </div>
   </div>
-
-  <button
-    title="Go to about me"
-    aria-label="Go to about me"
-    data-aos="fade-down"
-    data-aos-delay="1500"
-    data-aos-duration="700"
-    on:click={() => document.getElementById("about").scrollIntoView()}
-    class="group text-xl lg:text-3xl py-5 text-gray-700 dark:text-white absolute w-14 mx-auto text-center bottom-20 right-0 left-0"
-  >
-    <i class="hover-vertical fas fa-angle-down group-hover:pause" />
-  </button>
 </section>

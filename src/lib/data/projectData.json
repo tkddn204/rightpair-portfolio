@@ -1,0 +1,14 @@
+[
+  {
+    "title": "[패스트캠퍼스] 사장님 비서ya - B2B Self-coupon Backoffice 서비스",
+    "content": "- **역할 :**  프로젝트 **Security 구축**과 **Infra 지원,** 쿠폰 도메인의 **CRUD** 개발\n- **AWS 서버 지원** (ELB - EC2 - RDS) 및 **CI/CD 스크립트 구축** (Github Actions)을 했습니다.\n- **Security**를 통한 **CORS 필터링**과 **JWT 필터링** 및 **Redis 블랙 리스트 관리** 로직을 구성했습니다.\n- **Spring Batch**로 쿠폰의 대시보드 화면 및 정산 화면의 데이터를 집계하도록 설계했습니다.\n- 서비스 내 ‘**쿠폰**’ 도메인 관련 **CRUD 기능을** 구현했습니다.\n- **API 문서 자동화**를 위한 RestDocs + Swagger를 구성하고, 테스트 코드 및 gradle 스크립트를 작성했습니다. ([관련 블로그 포스트](https://rightpair.tistory.com/56))\n- Actuator 모니터링 시스템 및 LogBack을 통한 로깅 시스템을 구성했습니다.\n- PM & UX/UI & Front-End 와 **Discord, zoom**을 통해 협업 및 소통, 일일 스크럼을 진행했습니다.",
+    "link": "https://github.com/CoolPeace-yanolza/backend",
+    "website": ""
+  },
+  {
+    "title": "[패스트캠퍼스] 사장님 비서ya - B2B Self-coupon Backoffice 서비스",
+    "content": "- **역할 :**  프로젝트 **Security 구축**과 **Infra 지원,** 쿠폰 도메인의 **CRUD** 개발\n- **AWS 서버 지원** (ELB - EC2 - RDS) 및 **CI/CD 스크립트 구축** (Github Actions)을 했습니다.\n- **Security**를 통한 **CORS 필터링**과 **JWT 필터링** 및 **Redis 블랙 리스트 관리** 로직을 구성했습니다.\n- **Spring Batch**로 쿠폰의 대시보드 화면 및 정산 화면의 데이터를 집계하도록 설계했습니다.\n- 서비스 내 ‘**쿠폰**’ 도메인 관련 **CRUD 기능을** 구현했습니다.\n- **API 문서 자동화**를 위한 RestDocs + Swagger를 구성하고, 테스트 코드 및 gradle 스크립트를 작성했습니다. ([관련 블로그 포스트](https://rightpair.tistory.com/56))\n- Actuator 모니터링 시스템 및 LogBack을 통한 로깅 시스템을 구성했습니다.\n- PM & UX/UI & Front-End 와 **Discord, zoom**을 통해 협업 및 소통, 일일 스크럼을 진행했습니다.",
+    "link": "https://github.com/CoolPeace-yanolza/backend",
+    "website": ""
+  }
+]

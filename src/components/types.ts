@@ -5,6 +5,9 @@ export type HeroProfileButton = {
   imgAlt: string
 }
 
-export type HeroProfileData = {
-  links: HeroProfileButton[]
+export type ProjectItem = {
+  title: string,
+  content: string,
+  link: string
 }
+
