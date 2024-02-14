@@ -16,4 +16,12 @@
       <ProjectItem />
     </div>
   </div>
+  <div class="flex flex-col m-5 p-5">
+    ※ 아래는 2020년 이전의 프로젝트를 모은 노션 페이지입니다. (클릭 시 노션 페이지로 이동)
+    <a
+      class="text-blue-500"
+      href="https://tkddn204.notion.site/07ca748d29fa4ebbb2d6384cda31be13?v=a8753caeeef3406192abf82450732f35">
+      2020년 이전 프로젝트
+    </a>
+  </div>
 </section>
