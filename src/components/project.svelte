@@ -1,6 +1,5 @@
 <script lang="ts">
   import ProjectItem from "./projectItem.svelte";
-  import projectData from '$lib/data/projectData.json';
 </script>
 
 <section id="project" class="pt-12 bg-gray-50 dark:bg-gray-900">
@@ -12,11 +11,9 @@
     </div>
   </div>
   <hr class="bg-black max-w-screen-xl mx-5 h-0.5" />
-  <div class="block pt-12 md:flex">
-    <div class="flex-none text-lg text-gray-600 font-light md:flex-1 md:pl-20 md:pr-20">
-      {#each projectData as data}
-        <ProjectItem data={data} />
-      {/each}
+  <div class="block md:flex">
+    <div class="flex-none text-lg text-gray-600 font-light md:flex-1">
+      <ProjectItem />
     </div>
   </div>
 </section>

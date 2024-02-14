@@ -2,13 +2,6 @@
 
 </script>
 
-<style>
-    li::before {
-        content: '» ';
-        display: inline;
-    }
-</style>
-
 <section id="hero" class="bg-green-50 dark:bg-gray-900">
   <div class="mx-auto grid grid-flow-row md:grid-flow-col items-center gap-y-16 px-4 py-24 lg:mt-12 sm:py-32 lg:max-w-7xl lg:px-8">
 

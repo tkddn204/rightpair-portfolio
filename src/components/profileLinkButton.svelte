@@ -6,6 +6,12 @@
   export let data: HeroProfileButton
 </script>
 
+<style>
+    li::before {
+        content: none;
+    }
+</style>
+
 <li class="hover:bg-gray-100">
   <a
     title={data.label}

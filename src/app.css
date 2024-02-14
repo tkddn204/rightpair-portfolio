@@ -12,3 +12,8 @@
         opacity: 1;
     }
 }
+
+li::before {
+    content: '» ';
+    display: inline;
+}
