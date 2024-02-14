@@ -1,9 +1,15 @@
 <script lang="ts">
-  import ProfileLinkButton from './profileLinkButton.svelte';
-  import profileData from '$lib/data/profileInfo.json'
+
 </script>
 
-<section id="hero" class="bg-emerald-50 dark:bg-gray-900">
+<style>
+    li::before {
+        content: '» ';
+        display: inline;
+    }
+</style>
+
+<section id="hero" class="bg-green-50 dark:bg-gray-900">
   <div class="mx-auto grid grid-flow-row md:grid-flow-col items-center gap-y-16 px-4 py-24 lg:mt-12 sm:py-32 lg:max-w-7xl lg:px-8">
 
     <div class="m-3 lg:mt-0 lg:col-span-3 lg:flex">
@@ -19,11 +25,13 @@
         <span class="text-5xl font-bold bg-yellow-200">한상우</span>입니다.
       </p>
       <hr class="bg-black mx-auto h-0.5" />
-      <p class="flex flex-row my-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-        {#each profileData.links as profileLink}
-          <ProfileLinkButton data={profileLink} />
-        {/each}
-      </p>
+      <ul class="my-6 font-medium md:text-lg lg:mb-8 lg:text-xl dark:text-gray-400">
+        <li class="mb-2">저는 학생 때 컴퓨터비전, 블록체인 기술로 <span class="bg-yellow-100">대외 수상</span>을 한 경험이 있습니다.</li>
+        <li class="mb-2">졸업 후 기업에서 웹사이트 / 웹게임 개발 <span class="bg-yellow-100">TF팀</span>에 인턴으로 근무한 경험이 있습니다.</li>
+        <li class="mb-2"><span class="underline decoration-wavy decoration-green-600">☕ 커피</span>를 마시면서
+          <span class="underline decoration-wavy decoration-yellow-600">🎷 재즈</span>를 들으며 코딩하는 것을 좋아합니다.</li>
+        <li class="mb-2">현재는 <span class="font-bold bg-yellow-200">백엔드 웹 개발과 클라우드 인프라</span>를 공부하고 있습니다!</li>
+      </ul>
     </div>
   </div>
 </section>

@@ -1,15 +1,21 @@
 {
   "links": [
     {
-      "label": "Github 프로필 링크",
+      "label": "이메일 : tkddn204@gmail.com",
+      "link": "mailto:tkddn204@gmail.com?Subject=포트폴리오에서%20연락드립니다",
+      "imgSrc": "images/email.svg",
+      "imgAlt": "mail-svg"
+    },
+    {
+      "label": "깃허브 : https://github.com/tkddn204",
       "link": "https://github.com/tkddn204",
-      "imgSrc": "https://tkddn204.github.io/rightpair-portfolio/images/github.svg",
+      "imgSrc": "images/github.svg",
       "imgAlt": "github-svg"
     },
     {
-      "label": "티스토리 블로그 링크",
+      "label": "티스토리 : https://rightpair.tistory.com/",
       "link": "https://rightpair.tistory.com/",
-      "imgSrc": "https://tkddn204.github.io/rightpair-portfolio/images/tistory.svg",
+      "imgSrc": "images/tistory.svg",
       "imgAlt": "tistory-svg"
     }
   ]

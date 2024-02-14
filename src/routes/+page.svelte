@@ -2,6 +2,7 @@
   import Hero from '../components/hero.svelte'
   import Project from '../components/project.svelte'
   import NavBar from "../components/navBar.svelte";
+  import Contact from "../components/contact.svelte";
   import Footer from "../components/footer.svelte";
 </script>
 
@@ -18,6 +19,7 @@
 <!--    </a>-->
 <!--  </div>-->
   <Project />
+  <Contact />
   <Footer />
 </div>
 
