@@ -1,5 +1,5 @@
 <script lang="ts">
-  import ProfileLinkButton from './profileLinkButton.svelte';
+  import ProfileLinkButton from './socialLinkButton.svelte';
   import profileData from '$lib/data/profileInfo.json'
 </script>
 
